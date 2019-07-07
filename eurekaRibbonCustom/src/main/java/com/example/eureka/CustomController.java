@@ -31,7 +31,8 @@ public class CustomController {
         for(String serviceId : services) {
             serviceMap.put(serviceId, client.getInstances(serviceId));
         }
-        return serviceMap;
+        //logger.info("message =======>"+ restTemplate.getForEntity("http://HELLO-SERVICE/test/hello",String.class).getBody());
+        return restTemplate.getForEntity("http://HELLO-SERVICE/test/hello",String.class).getBody();
     }
 
 }
