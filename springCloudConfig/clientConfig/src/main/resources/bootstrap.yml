@@ -6,3 +6,5 @@ spring:
     config:
 #      label: master 此处是登陆配置
       uri: http://localhost:8888
+server:
+  port: 9999
