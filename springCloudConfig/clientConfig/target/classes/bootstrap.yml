@@ -4,5 +4,5 @@ spring:
     name: config-client
   cloud:
     config:
-      label: master
-      uri: http://localhost:8888/README.md/default
+#      label: master 此处是登陆配置
+      uri: http://localhost:8888

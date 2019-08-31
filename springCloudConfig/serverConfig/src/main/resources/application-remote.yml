@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kunge2013/springboot-elasticsearch.git
+          uri: https://github.com/kunge2013/config.git
           username: kunge2013
           password: fk102191
           ## SSL https支持 登陸
