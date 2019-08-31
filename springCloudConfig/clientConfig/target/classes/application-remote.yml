@@ -1,0 +1,13 @@
+## http://localhost:8888/README.md/default
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kunge2013/springboot-elasticsearch.git
+          username: kunge2013
+          password: fk102191
+          ## SSL https支持 登陸
+          skip-ssl-validation: true
